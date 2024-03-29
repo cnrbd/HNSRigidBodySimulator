@@ -9,6 +9,7 @@ n_steps = 4200
 n_particles = 40
 
 trajectory_n = np.zeros((n_steps, 7))
+print (trajectory_n)
 
 for i in range(n_steps):
     trajectory_n[i] = trajectories[i * n_particles + n]
